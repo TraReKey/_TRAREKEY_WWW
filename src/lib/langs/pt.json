@@ -1,0 +1,342 @@
+{ 
+  "ui": {
+    "prv": "Chave Privada",
+    "importprv": "Insira aqui sua Chave Privada ou Frase Mnemônica",
+    "account": "Conta",
+    "copied_long": "copiado para a área de transferência",
+    "copied": "copiado",
+    "analyzing": "Analisando...",
+    "searching": "Pesquisando...",
+    "error": "Erro",
+    "start_bot": "Iniciando o bot",
+    "wallet": "Minha Carteira",
+    "wallet_bal": "Saldo da Minha Carteira",
+    "total": "Lucro Total",
+    "bot_wallet_bal": "Saldo da Carteira do Bot",
+    "assets": "Ativos",
+    "waiting": "Aguardando Conexão da Carteira...",
+    "start_bot_mes": "Enquanto o bot estiver em execução, algumas funções serão desativadas. <br>É altamente recomendável não importar carteiras, depositar ou retirar fundos antes que o ciclo de trabalho seja concluído.",
+    "user_id": "ID do Usuário"
+},    
+
+    "setting_nav": {
+      "title": "Menu",
+      "title_2": "Idioma",
+      "general": "GERAL",
+      "security": "SEGURANÇA",
+      "referral": "INDICAÇÃO",
+      "home": "INÍCIO",
+      "settings": "CONFIGURAÇÕES",
+      "docs": "DOCUMENTAÇÃO",
+      "faqs": "PERGUNTAS FREQUENTES",
+      "support": "SUPORTE",                        
+      "buy_licence": "COMPRAR LICENÇA ",
+      "lock": "BLOQUEAR",
+      "info": "INFORMAÇÕES"
+    },
+    
+    "buttons": {  
+      "bot_start": "Iniciar Bot",  
+      "bot_settings": "Configurações do Bot",  
+      "claim": "Reivindicar Lucro",    
+      "submit": "Enviar",     
+      "back": "Voltar",
+      "import_account": "Importar Carteira",
+      "import": "Importar",
+      "connect": "Conectar",
+      "cancel": "Cancelar",
+      "reject": "Rejeitar",
+      "close": "Fechar",
+      "search": "Buscar",      
+      "refresh": "Atualizar",
+      "confirm": "Confirmar",
+      "lock": "Bloquear",
+      "buy": "Adicionar Fundos",
+      "buy_lic": "Comprar Licença",
+      "buy_lic2": "Comprar",
+      "lic": "Licença",
+      "swap": "Trocar",
+      "bridge": "Ponte",
+      "withdraw": "Enviar",
+      "launch": "Lançar",
+      "save": "Salvar",
+      "bot_running": "Bot em execução...",
+      "send": "Enviar"      
+    },        
+    "pg_home": {
+      "text_1": "Algumas carteiras de terceiros podem limitar o funcionamento correto do aplicativo e causar erros. <br> Para evitar esses erros, você pode conectar seu endereço de carteira diretamente ao aplicativo. <br> O MEV ETH Bot suporta a conexão de carteiras EVM de terceiros via chave privada ou frase mnemônica. <br> Carteiras suportadas: Trust Wallet, MetaMask, Coinbase, Portis, Infinity Wallet, Unstoppable, etc."    
+    }, 
+    "drawer_addfonds": {
+      "text_1": "Adicionar Fundos",
+      "text_3": "Ativo Suportado"
+    },     
+    "drawer_bot_settings": {
+      "text_1": "Configurações do INVADER BOT",
+      "text_3": "Você deve deixar pelo menos 2 exchanges",
+      "text_4": "limite superior",
+      "text_5": "Enviar",
+      "text_2": "escolher DEXes"       
+    },
+    "drawer_withdraw": {
+      "text_5": "Enviar",
+      "text_2": "Saldo da carteira excedido!"       
+    },
+    "countdown": {
+      "text_1": "O ciclo de trabalho terminará em",
+      "text_2": "O ciclo de trabalho acabou.  <br> Reivindique o lucro <br> e atualize a página."       
+    }, 
+    "worker": {
+      "text_1": "Saldo inicial do Bot",
+      "text_2": "Lucro obtido"       
+    }, 
+    "claim_profit": {
+      "text_1": "Reivindicar Lucro", 
+      "balance": "Saldo insuficiente na carteira para pagar a taxa do bot. Recarregue o saldo e tente novamente. "    
+    }, 
+    "monitor": {
+      "text_1": "Lucro Total",
+      "text_2": "ataques MEV bem-sucedidos",
+      "text_3": "lucro no último ataque"       
+    }, 
+    "errors": {
+      "addfonds": "É altamente recomendável não financiar a carteira do bot até que o ciclo de trabalho seja concluído.",    
+      "withdraw": "A operação está suspensa. Aguarde o término do ciclo de trabalho do bot!",
+      "import": "Para evitar erros na operação do bot, você não deve importar uma nova carteira até que o ciclo de trabalho seja concluído.",
+      "settings": "Você não pode alterar as configurações do bot enquanto o bot estiver em execução. Aguarde até que o ciclo de trabalho seja concluído.",
+      "claim": "Aguarde até que o ciclo de trabalho seja concluído.",
+      "minbal": "O saldo inicial mínimo necessário para iniciar o bot",
+      "minbal_2": "Saldo da carteira do bot",
+      "need_set": "Primeiro você precisa configurar o bot. O botão [Configurações do Bot] é usado para configurar o bot. ",
+      "text_7": "Eu o guardei em um local seguro",
+      "text_8": "o tempo do ciclo de trabalho não pode ser alterado no teste",
+      "claim_need": "Para concluir o ciclo de trabalho ou reiniciar o bot, você precisa primeiro reivindicar o lucro",
+      "connect": "A função estará disponível após a conexão da carteira", 
+      "zero": "O saldo da carteira é zero 0. Recarregue sua carteira para executar esta operação.  ", 
+      "network": "Por favor, mude para a Rede Principal Ethereum. ", 
+      "network_switch": "Falha ao mudar para a Rede Principal Ethereum.", 
+      "btn": "Criar"
+    },
+
+
+    "pg_new_wallet": {
+      "text_2": "",
+      "text_4": "Entendo e concordo.",
+      "btn": "Começar!"
+  },
+  "pg_withdraw": {
+      "text_1": "Enviar para o endereço {blockchain}",
+      "text_2": "Preço atual do Gás: ",
+      "btn_min": "MÍN",
+      "btn_withdraw": "RETIRAR",
+      "btn_success": "SUCESSO!",
+      "speed": "VELOCIDADE",
+      "error_1": "Você não pode retirar {tikker} para a mesma carteira.",
+      "error_2": "Você não tem ETH suficiente em sua carteira para pagar as taxas de transação na ETHEREUM",
+      "error_3": "Saldo da conta excedido"
+  },
+  "pg_start_bot": {
+      "step": "Passo",
+      "btn_basic": "Configurações Básicas do Bot",
+      "btn_withdrawsettings": "Configurações de Retirada de Lucros",
+      "btn_start": "INICIAR BOT",
+      "error_1": "Saldo Mínimo Necessário para Iniciar o Bot: ",
+      "error_2": "Saldo atual da carteira: "
+  },
+  "modalbot1": {
+      "limited": "Limitado",
+      "progressive": "Progressivo",
+      "hours": "horas",
+      "pool_1": "mais de 1 ano",
+      "pool_2": "mais de 6 meses",
+      "pool_3": "mais de 3 meses",
+      "pool_4": "mais de 1 mês",
+      "text_1": "Configurações Básicas do Bot",
+      "text_2": "Escolha DEX",
+      "text_3": "Estratégia de Capital",
+      "text_4": "Idade do pool de liquidez",
+      "text_4_1": "Ciclo de trabalho do bot",
+      "text_5": "Divida o capital em partes. Permite vários ataques MEV ao mesmo tempo.",
+      "text_6": "Valor máximo para um ataque MEV.",
+      "text_7": "Lucro por ciclo de negociação. (Depende do tipo de licença. Até 20% com a licença MAX)",
+      "text_8": "Buscando ataques mev com lucro pelo menos no valor especificado",
+      "text_9": "indisponível no PERÍODO DE AVALIAÇÃO",
+      "text_10": "Excluir Tokens Deflacionários",
+      "text_11": "Excluir Tokens Meme",
+      "text_11_1": "Apenas tokens da lista branca",
+      "text_11_2": "Ativar aprendizado automático de rede neural.",
+      "text_12": "Reinicialização automática do bot (PRO, MAX)",
+      "text_13": "indisponível no PERÍODO DE AVALIAÇÃO"
+  },
+  "modalbot2": {
+      "text_5": "manual",
+      "text_6": "aumentar em 50%",
+      "text_7": "Aumentar as taxas de ETH em caso de atrasos",
+      "text_8": "pagar uma taxa em cada transação",
+      "text_9": "aumentar em 10%",
+      "text_10": "Por padrão, todos os lucros permanecem em ETH",
+      "text_12": "padrão",
+      "text_11": "Pagar a taxa do bot com os lucros. (PRO, MAX)"
+  },
+  "dashboard": {
+      "text_1": "painel de controle",
+      "text_2": "O BOT ESTÁ FUNCIONANDO",
+      "text_3": "O BOT PAROU",
+      "text_4": "o ciclo de trabalho termina em",
+      "text_5": "o ciclo de trabalho acabou",
+      "text_6": "negociações bem-sucedidas",
+      "text_7": "lucro total por ciclo",
+      "status": "Licença: VÁLIDA",
+      "exp": "expira em"
+  },
+  "pg_tokens-list": {
+      "text_1": "Meus Ativos"
+  },
+  "pg_general": {
+      "text_1": "Selecionar Idioma do Aplicativo"
+  },
+  "pg_security": {
+      "title": "Configurações de Segurança",
+      "title_2": "CONFIGURAÇÕES",
+      "restricted": "ÁREA RESTRITA",
+      "btn_1": "Redefinir o Aplicativo",
+      "btn_2": "Conexão Direta da Carteira",
+      "btn_3": "Redefinir a Licença",
+      "import": "Conexão Direta da Carteira",
+      "show": "Mostrar as configurações de segurança",
+      "text_4": "Redefinir todas as configurações do aplicativo. Esta ação não pode ser desfeita!",
+      "text_3": "Conecte diretamente sua carteira ao aplicativo.",
+      "text_2": "Desvincule a licença da carteira. Redefina a licença completamente para transferi-la para outra carteira.",
+      "text_1": "Configurações importantes do aplicativo que podem afetar o desempenho do aplicativo. Seja muito cuidadoso e atento."
+  },
+
+
+  "pg_referral": {
+    "text_1": "Receba recompensas de até $500 (USDT) instantaneamente para cada amigo que você indicar para o {brand} E 50% das taxas do Bot deles!",
+    "text_2": "Cada indicação trará para o Convidado de 30 a 500 USDT uma vez por compra de licença.",
+    "text_3": "O bônus é creditado instantaneamente - o Referente receberá seus bônus assim que todas as condições forem cumpridas.",
+    "text_4": "Sem limites de indicação - Você pode indicar quantos amigos quiser.",
+    "text_5": "Bônus das taxas do Bot creditado no final de cada sessão de negociação se todas as condições forem cumpridas.",
+    "text_6": "Sim, eu quero participar do programa de indicação",
+    "text_7": "indicações",
+    "text_8": "créditos de indicação: <strong> 0 USDT</strong>",
+    "text_9": "valor mínimo para retirada: 100 USDT",
+    "text_10": "indicação"
+},
+"pg_support": {
+    "text_1": "Suporte Telegram",
+    "text_2": "Ao entrar em contato com o suporte técnico, certifique-se de especificar o seu ID de usuário",
+    "text_3": "Suporte por E-mail",
+    "text_4": "O tempo de resposta é de 2-3 dias úteis.",
+    "text_5": "ID de suporte: ",
+    "text_6": "Use este ID de usuário ao entrar em contato com o suporte técnico",
+    "text_7": "Envie um e-mail para o suporte.",
+    "text_8": "Assunto",
+    "text_9": "sua mensagem",
+    "text_10": "seu e-mail",
+    "btn_send": "Enviar Mensagem",
+    "radio_1": "Questões Técnicas",
+    "radio_2": "Status da Licença",
+    "radio_3": "Programa de Indicação",
+    "radio_4": "Ideias para Melhorar o Bot",
+    "thanks": "Obrigado! Sua mensagem foi recebida. Você receberá uma resposta no endereço de e-mail fornecido dentro de 2-3 dias úteis.",
+    "error": "Desculpe, a mensagem não foi enviada. Não há conexão com a internet."
+},
+"buy_lic": {
+    "title": "Selecionar Licença",
+    "title_2": "Comprar Licença",
+    "title_3": "Compra de Licença",
+    "text_1": "p/ano",
+    "text_2": "A licença está vinculada à carteira do usuário.",
+    "text_3": "Selecione a criptomoeda de pagamento",
+    "text_4": "Esta licença permite que iniciantes conheçam o bot. Teste-o e comece a ganhar.",
+    "text_5": "Para investidores e traders profissionais.",
+    "text_6": "A escolha daqueles que têm negociado e investido em criptomoedas por muito tempo e entendem como as coisas funcionam aqui.",
+    "text_7": "Se você já pagou",
+    "start_1": "Limites de capital: ~$10,000",
+    "start_2": "3-5% de lucro por ciclo",
+    "start_3": "saldo mínimo de início:",
+    "start_4": "Taxa do Bot de 12%",
+    "start_5": "Apenas uma blockchain",
+    "start_6": "Suporte padrão",
+    "pro_1": "Limites de capital: ~$200,000",
+    "pro_2": "3-10% de lucro por ciclo",
+    "pro_3": "saldo mínimo de início:",
+    "pro_4": "Taxa do Bot de 7%",
+    "pro_5": "Opção de converter lucros em stablecoins",
+    "pro_7": "Suporte prioritário 24/7",
+    "pro_6": "Pague a taxa do bot com os lucros",
+    "pro_8": "Reinicialização automática do bot",
+    "max_1": "Limites de capital: ~$1,000,000",
+    "max_2": "7-20% de lucro por ciclo",
+    "max_3": "Taxa do Bot de 2%",
+    "max_4": "Empréstimo instantâneo de até x5",
+    "btn_buy": "Comprar Agora",
+    "btn_vip": "Ativar sua licença"
+},
+"pay_buttons": {
+    "text_1": "Aguardando Pagamento...",
+    "text_2": "Enviar",
+    "text_3": "(em um único pagamento) para:",
+    "text_4": "Se você enviar qualquer outro valor de {crypto}, o sistema de pagamento irá ignorá-lo!",
+    "text_5": "blockchains suportadas:"
+},
+"modal_vip": {
+    "text_1": "Ativar a licença",
+    "text_2": "Sua carteira atual. A licença será vinculada a ela.",
+    "text_4": "link para a transação na blockchain (TX)",
+    "text_5": "Insira um link TX para seu pagamento",
+    "text_6": "link inválido",
+    "text_7": "Eu paguei o valor exato (~ ${licence_price}) especificado na fatura e verifiquei as informações fornecidas",
+    "text_8": "Se suas informações estiverem corretas, sua licença será ativada dentro de 1-3 horas. Você precisará reiniciar o aplicativo para ativar sua licença."
+},
+"logoblock": {
+    "text_3": "Ferramenta Profissional para Ataques MEV na Blockchain Ethereum!"
+},
+"startscreen": {
+    "text_3": "Pesquise, analise e selecione alvos usando rede neural. Ataques automatizados, segurança e anonimato.",
+    "text_4": "Maior ROI - até 20% por ciclo de bot*",
+    "text_5": "* O rendimento diário de ataques MEV não é um valor constante e depende da estratégia escolhida, do tamanho do capital inicial e da disponibilidade de liquidez nas DEXes."
+},
+"contact": {
+    "text_1": "Precisa de Ajuda?",
+    "text_2": " Suporte"
+},
+
+
+   
+"pg_faq": {
+  "title": "Perguntas Frequentes",
+  "q_1": "Você pode explicar brevemente como seu bot funciona?",
+  "q_2": "Você promete um lucro de 3 a 15% ao dia. Em que isso depende? Eu quero 10% em vez de 3% ",
+  "q_3": "Você pode me dizer o endereço do contrato inteligente do seu bot MEV?",
+  "q_5": "Por que a carteira do Bot precisa de um saldo mínimo? ( {minbal} {tikker} ) <br> Eu paguei o custo da licença, isso não é suficiente?",
+  "q_6": "Se eu quiser atualizar minha licença, só preciso pagar a diferença de preço?",
+  "q_7": "Existem restrições se eu quiser sacar meu dinheiro?",
+  "q_8": "Ok. Se eu pagar pela licença, então só pago a taxa do MEV ETH Bot e não mais taxas ocultas?",
+  "q_9": "Eu gostaria de testar o MEV ETH Bot antes de comprá-lo. Vocês têm uma versão de teste?",
+  "q_10": "O MEV ETH Bot usa todos os fundos na carteira do Bot para ataques MEV? Quaisquer tokens?",
+  "q_11": "Quais são os riscos? Posso perder meu depósito?",
+  "q_12": "Eu preciso de contas em exchanges descentralizadas?",
+  "q_13": "Eu preciso passar por KYC para me tornar seu cliente?",
+  "q_14": "Posso pagar pela minha licença em Bitcoin?",
+  "q_15": "Como funciona o processo de pagamento da taxa do MEV ETH Bot?",
+  "q_16": "Se eu não estiver satisfeito com algo, posso obter meu dinheiro de volta pela licença?",
+  "q_17": "Vocês têm uma sala de chat no Telegram onde posso conversar com seus clientes?",
+  "a_1": "O MEV ETH Bot usa uma rede neural para encontrar oportunidades de ataque. <br> O MEV ETH Bot rastreia transações nas exchanges descentralizadas selecionadas e encontra entre essas transações grandes ordens que afetam a liquidez no pool e o preço do token. Com uma taxa de transação aumentada, ele faz uma compra do mesmo token um pouco mais cedo e a um preço mais baixo. Uma vez que uma grande ordem entra na blockchain, o preço do token no pool de liquidez aumenta. E imediatamente o MEV ETH Bot vende o token com lucro. O bot ganha de 0,5 a 20% de cada transação nesses ataques MEV. O bot pode fazer até 20 ou mais negociações desse tipo por ciclo de trabalho. Em modo automático e com risco mínimo.",
+  "a_2": "O lucro depende da disponibilidade de liquidez nas exchanges descentralizadas, das configurações do bot, da estratégia de gerenciamento de dinheiro escolhida, da licença e do tamanho do seu capital. (quanto maior, mais ataques MEV o MEV ETH Bot será capaz de executar e maior será o lucro). Em média, o lucro é de cerca de 3-5% por ciclo de trabalho com capital suficiente.",
+  "a_3": "Sim, claro. Você pode acompanhar todas as transações do bot MEV na blockchain. E estimar o volume de liquidez e o número de transações. <a href=\"https://etherscan.io/address/0x000000000dfde7deaf24138722987c9a6991e2d4\" target=\"_blank\"><br> <b>Bot MEV: 0x000000000dfde7deaf24138722987c9a6991e2d4 </b></a>",
+  "a_5": "Você precisa de capital inicial para realizar ataques MEV. O MEV ETH Bot encontra, compra e vende pares de negociação automaticamente. Quanto maior o capital inicial, mais ataques MEV o MEV ETH Bot pode abrir ao mesmo tempo e maior será o lucro final. Sem um saldo mínimo, o MEV ETH Bot simplesmente não pode começar a funcionar. O custo da licença é pago separadamente. Esse é o valor da recompensa para a equipe do MEV ETH Bot, além da taxa de configuração inicial.",
+  "a_6": "Não há possibilidade de atualizar as licenças. O MEV ETH Bot usa algoritmos individuais para cada tipo de licença. Se você quiser atualizar para uma nova licença, terá que pagar a taxa completa da nova licença e criar uma conta e carteira separadas para a nova licença. <br> Apenas a transferência da licença para outra carteira é possível.",
+  "a_7": "Você pode sacar fundos da carteira do bot a qualquer momento. Após o início do bot, os fundos são temporariamente bloqueados. E você precisa esperar o fim do ciclo de trabalho. A duração do ciclo de trabalho pode ser configurada nas configurações do MEV ETH Bot.",
+  "a_8": "Sim, é isso mesmo. A licença é uma taxa única por ano. Não há taxas ocultas. Tudo é transparente. Você paga apenas a taxa do MEV ETH Bot sobre os lucros que obtém.",
+  "a_9": "A versão de teste com funcionalidade completa da licença Start está disponível para todos os usuários. Mas a comissão do bot é de 15% sobre o lucro obtido e o trabalho do bot é limitado a um ciclo de trabalho de 12 horas.",
+  "a_10": "O MEV ETH Bot faz ataques MEV usando apenas a moeda principal da blockchain (ETH). <br> O MEV ETH Bot ignora todos os outros tokens.",
+  "a_11": "Lucrar com ataques MEV tem quase nenhum risco. Existem pequenos riscos globais, como hacking de exchanges descentralizadas ou colapso repentino (scam) de alguns tokens. Mas como o MEV ETH Bot não negocia de forma \"all-in\", mas divide seu capital em partes para reduzir os riscos e realizar mais ataques MEV, não há perigo.",
+  "a_12": "Não, você não precisa criar contas. A autorização em exchanges descentralizadas é feita por meio do protocolo WEB 3.0 via uma carteira. O MEV ETH Bot se conecta automaticamente às exchanges descentralizadas e realiza transações diretamente por meio de contratos inteligentes das exchanges descentralizadas.",
+  "a_13": "Compartilhamos a filosofia dos cripto-evangelistas e acreditamos que a descentralização proporciona liberdade em relação às ditaduras e à violência dos governos. Apoiamos o anonimato completo de nossos clientes e não exigimos nenhum procedimento KYC.",
+  "a_14": "Sim, você pode. Além do Bitcoin, você pode pagar pela licença com mais de 10 criptomoedas diferentes.",
+  "a_15": "A taxa é calculada automaticamente a partir do lucro recebido e paga no final de cada ciclo de trabalho a partir de sua carteira ou da carteira do bot em modo automático nas tarifas PRO e MAX.",
+  "a_16": "Reembolsos de licenças estão disponíveis dentro de 7 dias após a compra. Você pode desativar uma licença e solicitar um reembolso através do serviço de suporte técnico. <br> Os reembolsos levam entre 3 e 10 dias. Você pode ser solicitado a fornecer documentos adicionais.",
+  "a_17": "Temos uma sala de chat privada para nossos clientes. Compartilhamos nossa experiência nela. Mas ela está disponível apenas para nossos clientes que adquiriram uma licença. Ataques MEV são uma área específica do mercado de criptomoedas. É a escolha de traders e investidores profissionais, e acreditamos que não é responsabilidade de nossos clientes se comunicarem com iniciantes e responderem às suas perguntas. <br> Para esse fim, há um serviço de suporte técnico."
+}
+  }

@@ -1,0 +1,338 @@
+{
+  "ui": {
+    "prv": "Kunci Pribadi",
+    "importprv": "Masukkan string Kunci Pribadi atau Frasa Biji Mnemonik Anda di sini",
+    "account": "Akun",
+    "copied_long": "disalin ke clipboard",
+    "copied": "disalin",
+    "analyzing": "Menganalisis...",
+    "searching": "Mencari...",
+    "error": "Kesalahan",
+    "start_bot": "Memulai bot",
+    "wallet": "Dompet Saya",
+    "wallet_bal": "Saldo Dompet Saya",
+    "total": "total profit",
+    "bot_wallet_bal": "Saldo Pool Bot",
+    "assets": "Aset",
+    "waiting": "Menunggu Koneksi Dompet...",
+    "start_bot_mes": "Ketika bot berjalan, beberapa fungsi akan dinonaktifkan. <br> Sangat disarankan untuk tidak mengimpor dompet, deposit, atau menarik dana sebelum siklus kerja selesai.",
+    "user_id": "ID Pengguna"
+  },
+  "setting_nav": {
+    "title": "Menu",
+    "title_2": "Bahasa",
+    "general": "UMUM",
+    "security": "KEAMANAN",
+    "referral": "REFERAL",
+    "home": "BERANDA",
+    "settings": "PENGATURAN",
+    "docs": "DOKUMEN",
+    "faqs": "FAQ",
+    "support": "DUKUNGAN",
+    "buy_licence": "BELI LISSEN",
+    "lock": "KUNCI",
+    "info": "INFO"
+  },
+  "buttons": {
+    "bot_start": "Mulai Bot",
+    "bot_settings": "Pengaturan Bot",
+    "claim": "Klaim Profit",
+    "submit": "Kirim",
+    "back": "Kembali",
+    "import_account": "Impor Dompet",
+    "import": "Impor",
+    "connect": "Hubungkan",
+    "cancel": "Batal",
+    "reject": "Tolak",
+    "close": "Tutup",
+    "search": "Cari",
+    "refresh": "Segarkan",
+    "confirm": "Konfirmasi",
+    "lock": "Kunci",
+    "buy": "Tambah Dana",
+    "buy_lic": "Beli Lisensi",
+    "buy_lic2": "Beli",
+    "lic": "Lisensi",
+    "swap": "Tukar",
+    "bridge": "Jembatan",
+    "withdraw": "Kirim",
+    "launch": "Luncurkan",
+    "save": "Simpan",
+    "bot_running": "Bot sedang berjalan...",
+    "send": "Kirim"
+  },
+  "pg_home": {
+    "text_1": "Beberapa dompet pihak ketiga mungkin membatasi operasi yang benar dari Aplikasi ini dan menyebabkan kesalahan. <br> Untuk menghindari kesalahan tersebut, Anda dapat menghubungkan alamat dompet Anda langsung ke Aplikasi ini. <br> MEV ETH Bot mendukung menghubungkan dompet EVM pihak ketiga melalui kunci pribadi atau frasa biji mnemonik. <br> Dompet yang didukung: Trust Wallet, MetaMask, Coinbase, Portis, Infinity Wallet, Unstoppable, dll."
+  },
+  "drawer_addfonds": {
+    "text_1": "Tambah Dana",
+    "text_3": "Aset yang Didukung"
+  },
+  "drawer_bot_settings": {
+    "text_1": "Pengaturan INVADER BOT",
+    "text_3": "Anda harus meninggalkan setidaknya 2 bursa",
+    "text_4": "batas atas",
+    "text_5": "Kirim",
+    "text_2": "pilih DEXes"
+  },
+  "drawer_withdraw": {
+    "text_5": "Kirim",
+    "text_2": "Saldo dompet melebihi batas!"
+  },
+  "countdown": {
+    "text_1": "siklus kerja akan berakhir dalam",
+    "text_2": "Siklus kerja telah berakhir. <br> Klaim profit <br> dan Segarkan halaman."
+  },
+  "worker": {
+    "text_1": "Saldo awal bot",
+    "text_2": "Profit yang diperoleh"
+  },
+  "claim_profit": {
+    "text_1": "Klaim Profit",
+    "balance": "Saldo dompet tidak mencukupi untuk membayar biaya bot. Isi ulang saldo dan coba lagi."
+  },
+  "monitor": {
+    "text_1": "Total profit",
+    "text_2": "serangan MEV yang berhasil",
+    "text_3": "profit pada serangan terakhir"
+  },
+  "errors": {
+    "addfonds": "Sangat disarankan agar Anda tidak mendanai dompet bot sampai siklus kerja selesai.",
+    "withdraw": "Operasi ditangguhkan. Tunggu hingga siklus kerja bot selesai!",
+    "import": "Untuk menghindari kesalahan dalam operasi bot, Anda sebaiknya tidak mengimpor dompet baru sampai siklus kerja selesai.",
+    "settings": "Anda tidak dapat mengubah pengaturan bot saat bot berjalan. Tunggu sampai siklus kerja selesai.",
+    "claim": "Tunggu sampai siklus kerja selesai.",
+    "minbal": "Saldo awal minimum yang dibutuhkan untuk memulai bot",
+    "minbal_2": "Saldo dompet bot",
+    "need_set": "Pertama, Anda perlu mengonfigurasi bot. Tombol [Pengaturan Bot] digunakan untuk mengatur bot.",
+    "text_7": "Saya menyimpannya di tempat yang aman",
+    "text_8": "Waktu siklus kerja tidak dapat diubah saat mencoba",
+    "claim_need": "Untuk menyelesaikan siklus kerja atau menghidupkan ulang bot, Anda perlu mengklaim profit terlebih dahulu",
+    "connect": "Fungsi ini akan tersedia setelah menghubungkan dompet",
+    "zero": "Saldo dompet nol 0. Isi ulang dompet Anda untuk melakukan operasi ini.",
+    "network": "Harap beralih ke Jaringan Utama Ethereum.",
+    "network_switch": "Gagal beralih ke Ethereum Mainnet.",
+    "btn": "Buat"
+  },
+
+  "pg_new_wallet": {
+    "text_2": "",
+    "text_4": "Saya mengerti dan menyetujui.",
+    "btn": "Mulai!"
+  },
+  "pg_withdraw": {
+    "text_1": "Kirim ke Alamat {blockchain}",
+    "text_2": "Harga Gas Saat Ini: ",
+    "btn_min": "MIN",
+    "btn_withdraw": "TARIK",
+    "btn_success": "BERHASIL!",
+    "speed": "KECEPATAN",
+    "error_1": "Anda tidak dapat menarik {tikker} ke dompet yang sama.",
+    "error_2": "Saldo ETH Anda tidak cukup untuk membayar biaya transaksi di ETHEREUM.",
+    "error_3": "Saldo akun melebihi batas"
+  },
+  "pg_start_bot": {
+    "step": "Langkah",
+    "btn_basic": "Pengaturan Dasar Bot",
+    "btn_withdrawsettings": "Pengaturan Penarikan Keuntungan",
+    "btn_start": "MULAI BOT",
+    "error_1": "Saldo Minimum yang Diperlukan untuk Memulai Bot: ",
+    "error_2": "Saldo dompet saat ini: "
+  },
+  "modalbot1": {
+    "limited": "Terbatas",
+    "progressive": "Progresif",
+    "hours": "jam",
+    "pool_1": "lebih dari 1 tahun",
+    "pool_2": "lebih dari 6 bulan",
+    "pool_3": "lebih dari 3 bulan",
+    "pool_4": "lebih dari 1 bulan",
+    "text_1": "Pengaturan Dasar Bot",
+    "text_2": "Pilih DEX",
+    "text_3": "Strategi Modal",
+    "text_4": "Usia kolam likuiditas",
+    "text_4_1": "Siklus kerja bot",
+    "text_5": "Bagi modal menjadi bagian-bagian. Memungkinkan beberapa serangan MEV secara bersamaan.",
+    "text_6": "Jumlah maksimum untuk satu serangan MEV.",
+    "text_7": "Keuntungan per siklus perdagangan. (Tergantung pada jenis lisensi. Hingga 20% dengan lisensi MAX)",
+    "text_8": "Mencari serangan MEV dengan keuntungan setidaknya jumlah yang ditentukan",
+    "text_9": "tidak tersedia di VERSI TRIAL",
+    "text_10": "Exlude Token Deflasi",
+    "text_11": "Exlude Token Meme",
+    "text_11_1": "Hanya daftar putih token",
+    "text_11_2": "Aktifkan pembelajaran mandiri jaringan saraf.",
+    "text_12": "Restart otomatis bot (PRO, MAX)",
+    "text_13": "tidak tersedia di VERSI TRIAL"
+  },
+  "modalbot2": {
+    "text_5": "manual",
+    "text_6": "naik 50%",
+    "text_7": "Tingkatkan biaya ETH saat keterlambatan",
+    "text_8": "Bayar biaya pada setiap transaksi",
+    "text_9": "naik 10%",
+    "text_10": "Secara default, semua keuntungan tetap dalam bentuk ETH",
+    "text_12": "default",
+    "text_11": "Bayar biaya bot dari keuntungan. (PRO, MAX)"
+  },
+  "dashboard": {
+    "text_1": "dashboard",
+    "text_2": "BOT SEDANG BERJALAN",
+    "text_3": "BOT BERHENTI",
+    "text_4": "siklus kerja berakhir dalam",
+    "text_5": "siklus kerja sudah berakhir",
+    "text_6": "transaksi berhasil",
+    "text_7": "total keuntungan per siklus",
+    "status": "Lisensi: VALID",
+    "exp": "berakhir pada"
+  },
+  "pg_tokens-list": {
+    "text_1": "Aset Saya"
+  },
+  "pg_general": {
+    "text_1": "Pilih Bahasa Aplikasi"
+  },
+  "pg_security": {
+    "title": "Pengaturan Keamanan",
+    "title_2": "PENGATURAN",
+    "restricted": "AREA TERBATAS",
+    "btn_1": "Reset Aplikasi",
+    "btn_2": "Koneksi Langsung ke Dompet",
+    "btn_3": "Reset Lisensi",
+    "import": "Koneksi Langsung ke Dompet",
+    "show": "Tampilkan pengaturan keamanan",
+    "text_4": "Reset semua pengaturan aplikasi. Tindakan ini tidak dapat dibatalkan!",
+    "text_3": "Hubungkan dompet Anda langsung ke aplikasi.",
+    "text_2": "Cabut lisensi dari dompet. Reset total lisensi untuk mentransfer lisensi ke dompet lain.",
+    "text_1": "Pengaturan aplikasi penting yang dapat memengaruhi kinerja aplikasi. Harap sangat berhati-hati dan teliti.",
+    "mnemonic": "Mnemonic"
+  },
+
+  "pg_referral": {
+    "text_1": "Dapatkan hadiah hingga $500 (USDT) secara instan untuk setiap teman yang Anda referensikan ke {brand} DAN 50% dari biaya Bot mereka!",
+    "text_2": "Setiap referensi akan memberikan Invitasi sebesar 30 hingga 500 USDT sekali pembelian lisensi.",
+    "text_3": "Bonus akan dikreditkan secara instan - Referensi akan menerima bonus mereka segera setelah semua kondisi terpenuhi.",
+    "text_4": "Tidak ada batasan referensi - Anda dapat merujuk sebanyak mungkin teman yang Anda inginkan.",
+    "text_5": "Bonus biaya Bot dikreditkan pada akhir setiap sesi perdagangan jika semua kondisi terpenuhi.",
+    "text_6": "Ya, saya ingin bergabung dengan program referensi",
+    "text_7": "referensi",
+    "text_8": "kredit referensi: <strong>  0 USDT</strong>",
+    "text_9": "jumlah penarikan minimum: 100 USDT",
+    "text_10": "referensi"
+  },
+  "pg_support": {
+    "text_1": "Dukungan Telegram",
+    "text_2": "Ketika menghubungi dukungan teknis, pastikan untuk mencantumkan ID Pengguna Anda",
+    "text_3": "Dukungan Email",
+    "text_4": "Waktu tanggapan adalah 2-3 hari kerja.",
+    "text_5": "ID pengguna dukungan: ",
+    "text_6": "Gunakan ID pengguna ini saat menghubungi dukungan teknis",
+    "text_7": "Kirim email ke dukungan.",
+    "text_8": "Subjek",
+    "text_9": "pesan Anda",
+    "text_10": "email Anda",
+    "btn_send": "Kirim Pesan",
+    "radio_1": "Masalah Teknis",
+    "radio_2": "Status Lisensi",
+    "radio_3": "Program Referensi",
+    "radio_4": "Ide untuk meningkatkan bot",
+    "thanks": "Terima kasih! Pesan Anda telah diterima. Anda akan menerima balasan ke alamat email yang Anda berikan dalam waktu 2-3 hari kerja.",
+    "error": "Maaf, pesan tidak terkirim. Tidak ada koneksi internet."
+  },
+  "buy_lic": {
+    "title": "Pilih Lisensi",
+    "title_2": "Beli Lisensi",
+    "title_3": "Pembelian Lisensi",
+    "text_1": "p/tahun",
+    "text_2": "Lisensi terlampir ke dompet pengguna.",
+    "text_3": "Pilih mata uang kripto pembayaran",
+    "text_4": "Lisensi ini memungkinkan pemula untuk mengenal bot. Ujicoba dan mulai menghasilkan.",
+    "text_5": "Untuk investor dan trader profesional.",
+    "text_6": "Pilihan bagi mereka yang telah lama bertrading dan berinvestasi dalam cryptocurrency dan memahami bagaimana hal-hal berfungsi di sini.",
+    "text_7": "Jika Anda sudah membayar",
+    "start_1": "Batas modal: ~$10,000",
+    "start_2": "Keuntungan 3-5% per siklus",
+    "start_3": "Saldo awal minimum:",
+    "start_4": "Biaya Bot 12%",
+    "start_5": "Hanya satu blockchain",
+    "start_6": "Dukungan Standar",
+    "pro_1": "Batas modal: ~$200,000",
+    "pro_2": "Keuntungan 3-10% per siklus",
+    "pro_3": "Saldo awal minimum:",
+    "pro_4": "Biaya Bot 7%",
+    "pro_5": "Opsi konversi ke stablecoin",
+    "pro_7": "Dukungan prioritas 24/7",
+    "pro_6": "Bayar biaya bot dari keuntungan",
+    "pro_8": "Bot restart otomatis",
+    "max_1": "Batas modal: ~$1,000,000",
+    "max_2": "Keuntungan 7-20% per siklus",
+    "max_3": "Biaya Bot 2%",
+    "max_4": "Flashloan hingga x5",
+    "btn_buy": "Beli Sekarang",
+    "btn_vip": "Aktifkan lisensi Anda"
+  },
+  "pay_buttons": {
+    "text_1": "Menunggu Pembayaran...",
+    "text_2": "Kirim",
+    "text_3": "(dalam satu pembayaran) ke: ",
+    "text_4": "Jika Anda mengirim jumlah {crypto} lainnya, sistem pembayaran akan mengabaikannya!",
+    "text_5": "blockchain yang didukung:"
+  },
+  "modal_vip": {
+    "text_1": "Aktifkan lisensi",
+    "text_2": "Dompet Anda saat ini. Lisensi akan terhubung dengannya.",
+    "text_4": "Tautan transaksi blockchain (TX)",
+    "text_5": "Masukkan tautan TX pembayaran Anda",
+    "text_6": "tautan tidak valid",
+    "text_7": "Saya membayar jumlah yang tepat (~ ${licence_price}) seperti yang tercantum dalam faktur dan saya telah memverifikasi informasi yang diberikan",
+    "text_8": "Jika informasi Anda benar, lisensi Anda akan diaktifkan dalam waktu 1-3 jam. Anda perlu me-restart aplikasi untuk mengaktifkan lisensi Anda."
+  },
+  "logoblock": {
+    "text_3": "Alat Profesional untuk Serangan MEV pada Blockchain Ethereum!"
+  },
+  "startscreen": {
+    "text_3": "Cari, analisis, dan pilih target menggunakan jaringan saraf. <br> Serangan otomatis, keamanan, dan anonimitas.",
+    "text_4": "ROI tertinggi - hingga 20% per siklus bot*",
+    "text_5": "* Hasil harian dari serangan MEV bukan nilai konstan dan tergantung pada strategi yang dipilih, ukuran modal awal, dan ketersediaan likuiditas di DEXes."
+  },
+  "contact": {
+    "text_1": "Butuh Bantuan? ",
+    "text_2": " Dukungan"
+  },
+
+
+  "pg_faq": {
+    "title": "FAQs",
+    "q_1": "Dapatkah Anda menjelaskan secara singkat bagaimana bot Anda bekerja?",
+    "q_2": "Anda menjanjikan keuntungan 3 hingga 15% per hari. Bergantung pada apa? Saya ingin 10% daripada 3%",
+    "q_3": "Bisakah Anda memberikan alamat smart contract dari bot MEV Anda?",
+    "q_5": "Mengapa dompet Bot memerlukan saldo minimum? ({minbal} {tikker}) <br> Saya sudah membayar biaya lisensi, apakah itu tidak cukup?",
+    "q_6": "Jika saya ingin meng-upgrade lisensi saya, apakah saya hanya perlu membayar selisih harga?",
+    "q_7": "Apakah ada batasan jika saya ingin menarik uang saya?",
+    "q_8": "Baik. Jika saya membayar lisensi, apakah saya hanya membayar biaya Bot MEV ETH dan tidak ada biaya tersembunyi lainnya?",
+    "q_9": "Saya ingin mencoba Bot MEV ETH sebelum saya membelinya. Apakah Anda memiliki versi Uji Coba?",
+    "q_10": "Bot MEV ETH menggunakan semua dana dalam dompet Bot untuk serangan MEV? Apakah ada token lain?",
+    "q_11": "Apa risikonya? Bisakah saya kehilangan deposit saya?",
+    "q_12": "Apakah saya perlu memiliki akun di pertukaran terdesentralisasi?",
+    "q_13": "Haruskah saya melewati KYC untuk menjadi klien Anda?",
+    "q_14": "Dapatkah saya membayar lisensi saya dengan Bitcoin?",
+    "q_15": "Bagaimana proses pembayaran biaya Bot MEV ETH bekerja?",
+    "q_16": "Jika saya tidak puas dengan sesuatu, apakah saya bisa mendapatkan uang kembali untuk lisensi?",
+    "q_17": "Apakah Anda memiliki ruang obrolan di Telegram di mana saya dapat berbicara dengan pelanggan Anda?",
+    "a_1": "Bot MEV ETH menggunakan jaringan saraf untuk menemukan peluang serangan. <br> Bot MEV ETH melacak transaksi di bursa terdesentralisasi yang dipilih dan mencari di antara transaksi tersebut pesanan besar yang memengaruhi likuiditas dalam pool dan harga token. Dengan biaya transaksi yang lebih tinggi, bot melakukan pembelian token yang sama sedikit lebih awal dan dengan harga yang lebih rendah. Begitu pesanan besar masuk ke blockchain. Harga token dalam pool likuiditas meningkat. Dan segera Bot MEV ETH menjual token tersebut dengan keuntungan. Bot menghasilkan 0,5-20% dari setiap transaksi pada serangan MEV ini. Bot dapat melakukan hingga 20 atau lebih transaksi seperti ini per siklus kerja. Dalam mode otomatis dan dengan risiko minimal",
+    "a_2": "Keuntungan tergantung pada ketersediaan likuiditas di bursa terdesentralisasi, pengaturan bot, strategi pengelolaan uang yang dipilih, lisensi, dan ukuran modal Anda. (semakin besar, semakin banyak serangan INVADER BOT MEV ETH akan dapat lakukan dan semakin tinggi keuntungannya). <br> Rata-rata, keuntungan sekitar 3-5% per siklus kerja dengan modal yang cukup.",
+    "a_3": "Ya, tentu saja. Anda dapat melacak semua transaksi bot MEV di blockchain. Dan memperkirakan volume likuiditas dan jumlah transaksi. <a href=\"https://etherscan.io/address/0x000000000dfde7deaf24138722987c9a6991e2d4\" target=\"_blank\"><br> <b>Bot MEV: 0x000000000dfde7deaf24138722987c9a6991e2d4 </b></a>",
+    "a_5": "Anda memerlukan modal awal untuk melakukan serangan MEV. Bot MEV ETH secara otomatis menemukan, membeli, dan menjual pasangan perdagangan. Semakin tinggi modal awal, semakin banyak serangan INVADER BOT MEV ETH yang dapat dibuka secara bersamaan, dan semakin tinggi keuntungannya. Tanpa saldo minimum, Bot MEV ETH tidak dapat memulai bekerja. Biaya lisensi dibayarkan secara terpisah. Ini adalah jumlah imbalan untuk tim Bot MEV ETH, dan biaya awal dan pengaturan awal.",
+    "a_6": "Tidak ada kemungkinan untuk meng-upgrade lisensi. Bot MEV ETH menggunakan algoritma individu untuk setiap jenis lisensi. Jika Anda ingin meng-upgrade ke lisensi baru, Anda harus membayar biaya lisensi penuh dan membuat akun dan dompet terpisah untuk lisensi baru. <br> Hanya transfer lisensi ke dompet lain yang memungkinkan.",
+    "a_7": "Anda dapat menarik dana dari dompet bot kapan saja. Setelah bot diluncurkan, dana sementara diblokir. Dan Anda perlu menunggu sampai akhir siklus kerja. Durasi siklus kerja dapat diatur dalam pengaturan Bot MEV ETH.",
+    "a_8": "Ya, benar. Lisensi adalah biaya satu kali setahun. Tidak ada biaya tersembunyi. Semuanya terbuka. Anda hanya membayar biaya Bot MEV ETH dari keuntungan yang Anda hasilkan.",
+    "a_9": "Versi uji coba dengan fungsi penuh dari lisensi Start tersedia untuk setiap pengguna. Tetapi komisi bot adalah 15% dari keuntungan yang diperoleh dan kerja bot dibatasi satu siklus kerja 12 jam.",
+    "a_10": "Bot MEV ETH melakukan serangan MEV hanya menggunakan mata uang blockchain utama (ETH). <br> Bot MEV ETH mengabaikan semua token lainnya. <br>",
+    "a_11": "Menghasilkan keuntungan dengan serangan MEV hampir tidak memiliki risiko. Ada risiko global kecil, seperti peretasan pertukaran terdesentralisasi atau keruntuhan tiba-tiba (scam) beberapa token. Tetapi karena Bot MEV ETH tidak berdagang dengan basis \"all-in-one\", tetapi membagi modalnya menjadi bagian-bagian untuk mengurangi risiko dan melakukan lebih banyak serangan MEV, tidak ada bahaya.",
+    "a_12": "Tidak, Anda tidak perlu membuat akun apa pun. Otorisasi di pertukaran terdesentralisasi dilakukan melalui protokol WEB 3.0 melalui dompet. Bot MEV ETH secara otomatis terhubung ke pertukaran terdesentralisasi dan melakukan transaksi langsung melalui smart contract pertukaran terdesentralisasi.",
+    "a_13": "Kami berbagi filosofi kripto-evangelis dan percaya bahwa desentralisasi memberikan kebebasan dari tekanan dan kekerasan dari pemerintah. Kami mendukung anonimitas lengkap pelanggan kami dan tidak memerlukan prosedur KYC apa pun.",
+    "a_14": "Ya, Anda bisa. Selain Bitcoin, Anda dapat membayar lisensi dengan lebih dari 10 mata uang kripto lainnya",
+    "a_15": "Biaya dihitung secara otomatis dari keuntungan yang diterima dan dibayarkan pada akhir setiap siklus kerja dari dompet Anda atau dompet bot secara otomatis pada tarif PRO, MAX",
+    "a_16": "Pengembalian uang untuk lisensi tersedia dalam 7 hari setelah pembelian. Anda dapat menonaktifkan lisensi dan meminta pengembalian uang melalui layanan dukungan teknis. <br> Pengembalian uang memakan waktu antara 3 dan 10 hari. Anda mungkin diminta untuk dokumen tambahan.",
+    "a_17": "Kami memiliki ruang obrolan pribadi untuk pelanggan kami. Kami berbagi pengalaman kami di dalamnya. Tetapi hanya tersedia untuk pelanggan kami yang telah membeli lisensi. Serangan MEV adalah area khusus dalam pasar kripto. Ini adalah pilihan trader dan investor profesional, dan kami percaya bahwa tidak menjadi tanggung jawab pelanggan kami untuk berkomunikasi dengan pemula dan menjawab pertanyaan mereka. <br> Untuk tujuan ini ada layanan dukungan teknis."
+  }
+  }

@@ -1,0 +1,66 @@
+{
+	"name": "trarekey-site",
+	"version": "1.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write .",
+		"docker:build": "docker build -t sk-wc-w-sk-tw-image .",
+		"docker:run": "docker run -d --name sk-wc-w-sk-tw-container -p 5173:5173 sk-wc-w-sk-tw-image",
+		"docker:stop": "docker stop sk-wc-w-sk-tw-container",
+		"docker:remove": "docker rm sk-wc-w-sk-tw-container",
+		"docker:clean": "docker rmi -f sk-wc-w-sk-tw-image"
+	},
+	"devDependencies": {
+		"@skeletonlabs/skeleton": "^2.9.0",
+		"@skeletonlabs/tw-plugin": "0.3.1",
+		"@sveltejs/adapter-auto": "^3.1.1",
+		"@sveltejs/kit": "2.5.0",
+		"@sveltejs/vite-plugin-svelte": "3.0.2",
+		"@tailwindcss/forms": "0.5.7",
+		"@tailwindcss/typography": "0.5.10",
+		"@types/eslint": "8.56.0",
+		"@types/node": "20.11.29",
+		"@types/pako": "^2.0.3",
+		"@typescript-eslint/eslint-plugin": "6.0.0",
+		"@typescript-eslint/parser": "6.0.0",
+		"autoprefixer": "10.4.18",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"ip": ">=1.1.9",
+		"postcss": "8.4.36",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "4.2.9",
+		"svelte-check": "3.6.0",
+		"tailwindcss": "3.4.1",
+		"tslib": "2.4.1",
+		"typescript": "5.3.3",
+		"vite": "5.0.12",
+		"vite-plugin-tailwind-purgecss": "0.2.0"
+	},
+	"dependencies": {
+		"@ethersproject/hdnode": "^5.7.0",
+		"@floating-ui/dom": "1.6.3",
+		"@sveltejs/adapter-vercel": "^5.3.0",
+		"@tanstack/react-query": "^5.18.1",
+		"axios": "^1.7.2",
+		"date-fns": "^4.1.0",
+		"svelte-i18n": "^4.0.0",
+		"svelte-local-storage-store": "^0.6.4",
+		"svelte-preprocess": "^5.1.4",
+		"tweetnacl": "^1.0.3",
+		"tweetnacl-util": "^0.15.1"
+
+	},
+	"author": {
+		"name": "Trarekey",
+		"url": "https://github.com/TraReKey/"
+	}
+}

